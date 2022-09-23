@@ -229,6 +229,11 @@ main footer a{
     display: grid;
     grid-row: 2;
     grid-column: 1;
+    user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
 }
 .emoticon time{
     font-size: 10px;
