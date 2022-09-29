@@ -250,14 +250,14 @@ main footer a{
     color: rgb(0, 0, 0);
 }
 
-#translation {
+.translation {
     font-size: 1rem;
     margin: 0 0 0.2rem 0;
-    color: #FF0000;
+    color: #fa423e;
     display: none;
 }
 
-#border {
+.border {
     margin-top: 5px;
     margin-bottom: 5px;
     border-top: 1px dashed gray;
