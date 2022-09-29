@@ -1,18 +1,15 @@
-var test = document.getElementById('test');
-var bd = document.getElementById('border');
-var ts = document.getElementById('translation')
+var bd = document.getElementsByClassName('border')
+var ts = document.getElementsByClassName('translation')
 
 function translate() {
-    if (bd.style.display !== 'block') {
-        bd.style.display = 'block';
-}
-    else {
-        bd.style.display = 'none';
-}
-    if (ts.style.display !== 'block') {
-        ts.style.display = 'block';
-}
-    else {
-        ts.style.display = 'none';
-}
-};
+    for (i = 0; i < bd.length; i++) {
+      if (bd[i].style.display !== 'block') {
+            bd[i].style.display = 'block';
+            ts[i].style.display = 'block';
+    }
+        else {
+            bd[i].style.display = 'none';
+            ts[i].style.display = 'none';
+    }
+    }
+   }
