@@ -249,7 +249,8 @@ main footer a{
     margin: 0 0 0.2rem 0;
     color: rgb(0, 0, 0);
 }
-.msg p2 {
+
+#translation {
     font-size: 1rem;
     margin: 0 0 0.2rem 0;
     color: #FF0000;
