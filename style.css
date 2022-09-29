@@ -198,7 +198,6 @@ main footer a{
     clear: both;
     padding-left: 8px;
 }
-
 .other .msg {
     order: 1;
     border-top-left-radius: 0px;
@@ -257,13 +256,14 @@ main footer a{
     display: none;
 }
 
-.msg .border {
+#border {
     margin-top: 5px;
     margin-bottom: 5px;
     border-top: 1px dashed gray;
     grid-column: 1;
     display: none;
 }
+
 
 .msg img {
     position: relative;
