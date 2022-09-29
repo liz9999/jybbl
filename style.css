@@ -56,8 +56,8 @@ main header h3{
 }
 hr.solid {
     border: 0;
-     border-top: 1px solid #CCC;
-  }
+    border-top: 1px solid #CCC;
+}
 main footer{
 	display: inline;
 	position: absolute;
@@ -250,6 +250,21 @@ main footer a{
     margin: 0 0 0.2rem 0;
     color: rgb(0, 0, 0);
 }
+.msg p2 {
+    font-size: 1rem;
+    margin: 0 0 0.2rem 0;
+    color: #FF0000;
+    display: none;
+}
+
+.msg .border {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px dashed gray;
+    grid-column: 1;
+    display: none;
+}
+
 .msg img {
     position: relative;
     display: block;
