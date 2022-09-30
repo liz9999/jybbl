@@ -6,7 +6,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 500;
+    z-index: 4;
     top: 0;
     background:#dacdc7;
     font-size:0;
@@ -317,5 +317,5 @@ main footer a{
     height: 45px;
     background: url(/jybbl/pics/te.png);
     background-size: 100%;
-    z-index: -99;
+    z-index: 5;
 }
