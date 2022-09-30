@@ -317,9 +317,5 @@ main footer a{
     height: 45px;
     background: url(/jybbl/pics/te.png);
     background-size: 100%;
-    user-select: all;
-    -webkit-user-select: all;
-    -khtml-user-select: all;
-    -moz-user-select: all;
-    -ms-user-select: all;
+    z-index: 1;
 }
