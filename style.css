@@ -67,7 +67,7 @@ main footer{
     background:#ffff;
     max-width: 500px;
 }
-#test {
+main footer #test {
     width: 25px;
     padding-top: 10px;
     padding-right: 8px;
