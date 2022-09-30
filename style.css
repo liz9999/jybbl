@@ -309,7 +309,7 @@ main footer a{
     position: absolute;
     bottom: 0;
 }
-.chat button {
+.chat #te {
     position:fixed;
     margin: 10px 0px 0px 10px;
     right: 10px;
