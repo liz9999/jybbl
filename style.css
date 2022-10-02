@@ -326,3 +326,21 @@ main footer a{
     box-shadow: none;
     border-color: transparent;
 }
+
+hr.solid-date {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.2;
+}
+.odate {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-color: #000;
+    text-align: center;
+    opacity: 0.8;
+}
