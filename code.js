@@ -14,3 +14,7 @@ function translate() {
     }
     }
    }
+
+window.addEventListener('load', function(){
+    document.getElementById('te').addEventListener('click', translate);
+});
