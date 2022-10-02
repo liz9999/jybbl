@@ -115,6 +115,8 @@ main footer a{
 	list-style-type: none;
 	overflow-y: scroll;
     scrollbar-width: none;
+    padding-right: 17px;
+    box-sizing: content-box;
     position: fixed;
     height: calc(100% - 155px);
 }
@@ -315,7 +317,7 @@ main footer a{
     right: 10px;
     width: 45px;
     height: 45px;
-    background: url(/jybbl/pics/te.png);
+    background: url(/jybbl/pics/te2.png);
     background-size: 100%;
     z-index: 5;
 }
