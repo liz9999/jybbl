@@ -26,6 +26,7 @@ main .background img {
     z-index:-1;
 }
 main header{
+    margin: 0px;
     text-align: center;
     position: sticky;
     width: 100%;
