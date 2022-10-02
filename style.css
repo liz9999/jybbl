@@ -320,4 +320,7 @@ main footer a{
     background: url(/jybbl/pics/te2.png);
     background-size: 100%;
     z-index: 5;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: transparent;
 }
